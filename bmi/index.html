@@ -21,10 +21,21 @@
           <input type="text" class="weight_text"  placeholder="請輸入體重" required >
      </div>
 
-     <div>
+     <div class="result_button">
           <input type="button" class="send" value="看結果">
-          <p class="result"></p>
      </div>
+
+     <div class="show_result">
+      <svg version="1.1">
+        <circle cx="66" cy="66" r="60" stroke="black" stroke-width="6" fill="none" />
+      </svg>
+      <p class="result_bmi">00.00</p>
+      <p class="bmi">bmi</p>
+      <input type="button" class="refresh" value="">
+      <p class="result_bmi_status"></p>
+     </div>
+
+
 
   </div>
 
@@ -32,6 +43,10 @@
   <div class="show_record">
     <h2>BMI紀錄</h2>
     <ul class="list"></ul>
+  </div>
+
+  <div class="footer">
+    <img src="images/BMICLogo2.png">
   </div>
 <script src="js/all.js"></script>
 </body>
