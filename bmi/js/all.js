@@ -42,6 +42,12 @@
     var bmi = weight/(height*height/10000);
     var bmi_status = bmiStatus(bmi);
 
+    //判斷是否輸入有效數字
+    if (bmi.toString() == "NaN") {
+      alert("請輸入有效數字");
+      return;
+    }
+
     //回傳bmi數值到index頁面   
     document.querySelector('.result_bmi').textContent = bmi.toFixed(2);
     //回傳bmi狀態到index頁面

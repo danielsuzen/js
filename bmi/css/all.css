@@ -144,14 +144,14 @@ table {
       text-align: center;
       background: #f5f5f5;
       border: 1px solid #f5f5f5;
-      margin: 10px;
+      padding-bottom: 20px;
     }
 
     .show_record h2{
       font-family: .SFNSDisplay;
       font-size: 24px;
       color: #424242;
-      margin: 30px;
+      margin: 25px;
     }
 
     .show_record ul{
